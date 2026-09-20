@@ -1,0 +1,156 @@
+---
+title: "Jose Banegas Gil"
+format: html
+editor: visual
+execute:
+  echo: false
+---
+
+## Introducción
+
+Esté proyecto quiere describe unas partes de la vida de Jose Banegas Gil.
+
+José Banegas Gil nació el 27 de diciembre 1900 en Archena, Murcia, en la region de Murcia en España.\
+\[pic from scrapbook\]
+
+Su esposa, Isabel Rubio Redondo, naciò el 24 de abril 1908 en Linares, Jaén en la region de Andalusia en España.\
+\[include picture from scrapbook\]
+
+```{r}
+#| echo: false
+
+library(leaflet)
+
+places <- data.frame(
+  name = c(
+    "Archena",
+    "Linares"
+  ),
+  lat = c(
+    38.1167,
+    38.0952
+  ),
+  lon = c(
+    -1.3000,
+    -3.6360
+  )
+)
+
+leaflet::leaflet(places) |>
+  leaflet::addTiles() |>
+  leaflet::addCircleMarkers(
+    lng = ~lon,
+    lat = ~lat,
+    radius = 7,
+    fillOpacity = 1,
+    popup = ~name
+  ) |>
+  leaflet::addLabelOnlyMarkers(
+    lng = ~lon,
+    lat = ~lat,
+    label = ~name,
+    labelOptions = leaflet::labelOptions(
+      noHide = TRUE,
+      direction = "bottom",
+      offset = c(0, 8),
+      textOnly = TRUE,
+      style = list(
+        "font-size" = "14px",
+        "font-weight" = "bold"
+      )
+    )
+  ) |>
+  leaflet::setView(
+    lng = -3.5,
+    lat = 39.5,
+    zoom = 6
+  ) |>
+  leaflet::addEasyButton(
+    leaflet::easyButton(
+      icon = "fa-home",
+      title = "Home",
+      onClick = htmlwidgets::JS(
+        "function(btn, map){
+          map.setView([39.5, -3.5], 6);
+        }"
+      )
+    )
+  )
+```
+
+En la Gaceta de Madrid en 1922 José fue nombrado como reclutado al ejercito en el 1921.
+
+```{r}
+
+knitr::include_graphics("images/ejercito_1922_JBG.png")
+```
+
+## La Guerra Civil Española
+
+Franco declaró victoria en el 1 de april, 1939.
+
+## Solicitando Asilo
+
+Justo el siguente dia..
+
+The following day on April 2, 1939,  Jose Banegas Gil petitioned the Mexican consulate in France for political asylum.
+
+```{r}
+#| echo: false
+
+library(leaflet)
+
+places <- data.frame(
+  name = c(
+    "Tangier, Morocco",
+    "Brazil",
+    "San Juan, Puerto Rico",
+    "Veracruz, Mexico"
+  ),
+  lat = c(35.7595, -10.0, 18.4655, 19.1738),
+  lon = c(-5.8340, -45.0, -66.1057, -96.1342)
+)
+
+leaflet::leaflet(places) |>
+  leaflet::addTiles() |>
+  leaflet::addPolylines(
+    lng = c(places$lon[1], places$lon[2]),
+    lat = c(places$lat[1], places$lat[2]),
+    weight = 3
+  ) |>
+  leaflet::addPolylines(
+    lng = c(places$lon[2], places$lon[3]),
+    lat = c(places$lat[2], places$lat[3]),
+    weight = 3
+  ) |>
+  leaflet::addPolylines(
+    lng = c(places$lon[3], places$lon[4]),
+    lat = c(places$lat[3], places$lat[4]),
+    weight = 3
+  ) |>
+  leaflet::addCircleMarkers(
+    lng = ~lon,
+    lat = ~lat,
+    radius = 7,
+    popup = ~name,
+    fillOpacity = 1
+  )
+```
+
+## Entrando a Mexico
+
+En el 20 de febrero en 1941, la familia llego a San Juan, Puerto rico en un barco que se llamaba Cuba.
+
+(add Ancestry.com pic of manifest)
+
+En el 9 de marzo 1941, la familiia entraron Mexico por la puerta de Veracruz en un barco que se llamaba Monterrey que habia salida la isla de Cuba.
+
+```{r}
+
+knitr::include_graphics("images/migration_card_JBG.png")
+
+knitr::include_graphics("images/migration_card_IRR.png")
+  
+```
+
+test test test
