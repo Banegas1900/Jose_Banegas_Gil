@@ -1,5 +1,5 @@
 ---
-title: "Jose Banegas Gil"
+title: "Escapar del Fascismo: La Vida de Jose Banegas Gil y su Familia"
 format: html
 editor: visual
 execute:
@@ -8,16 +8,21 @@ execute:
 
 ## Introducción
 
-Esté proyecto quiere describe unas partes de la vida de Jose Banegas Gil.
+Entre 1936 y 1950, se estima que 20.000 a 25.000 refugiados de la guerra civil española entraron a Mexico[^1]. La familia de José Banegas Gil cuenta en esta cifra.
 
-José Banegas Gil nació el 27 de diciembre 1900 en Archena, Murcia, en la region de Murcia en España.\
-\[pic from scrapbook\]
+[^1]: Pla Brugat, D. (1999). [Refugiados Españoles En México: Recuento Y Caracterización](https://muse.jhu.edu/pub/320/oa_edited_volume/chapter/2573845). En *Los refugiados españoles y la cultura mexicana: actas de las segundas jornadas celebradas en El Colegio de México en noviembre de 1996.* El Colegio de México.
 
-Su esposa, Isabel Rubio Redondo, naciò el 24 de abril 1908 en Linares, Jaén en la region de Andalusia en España.\
-\[include picture from scrapbook\]
+José Banegas Gil nació el 27 de diciembre 1900 en Archena, Murcia, en la region de Murcia en España. Su esposa, Isabel Rubio Redondo, naciò el 24 de abril 1908 en Linares, Jaén en la region de Andalusia en España.\
 
 ```{r}
-#| echo: false
+#| layout-ncol: 2
+#| out-height: 400px
+
+knitr::include_graphics("images/JBG_foto.png")
+knitr::include_graphics("images/IRR_foto.png")
+```
+
+```{r}
 
 library(leaflet)
 
@@ -78,6 +83,17 @@ leaflet::leaflet(places) |>
   )
 ```
 
+## Escuela, Ejercito, y ser Doctor
+
+Entre 1912 y 1918, José asistió el Instituto General y Tecnico de Murcia[^2]. Sigue el enlace en el footnote para ver su expediente estudantil que incluye su applicacion de 1912, información sobres sus papás, examen de ingreso, y todas de sus califaciónes.
+
+[^2]: [Expediente académico de José Banegas Gil](https://archivogeneral.carm.es/archivoGeneral/arg.detalle_documento?idDetalle=3140559#). Archivo General Region De Murcia.
+
+```{r}
+
+knitr::include_graphics("images/expediente_JBG.png")
+```
+
 En la Gaceta de Madrid en 1922 José fue nombrado como reclutado al ejercito en el 1921.
 
 ```{r}
@@ -85,49 +101,84 @@ En la Gaceta de Madrid en 1922 José fue nombrado como reclutado al ejercito en 
 knitr::include_graphics("images/ejercito_1922_JBG.png")
 ```
 
+1927 - Doctor note
+
+Josê passed a text to be part of the list of sanitarioums?
+
 ## La Guerra Civil Española
 
-Franco declaró victoria en el 1 de april, 1939.
+\[insert background info on civil war\]
+
+En el Boletín Official de Ceuta en el 23 de febrero, 1939, José fue emplazado por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional".
+
+```{r}
+
+knitr::include_graphics("images/boletin_1939.png")
+```
+
+Cinco semanas después, Franco declararía victoria en el 1 de april, 1939.
 
 ## Solicitando Asilo
 
-Justo el siguente dia..
+Justo el dia siguente en el 2 de abril, 1939, José escribe cartas al consulado Mexicano en Francia solicitando asilo politico para el y su esposa y tres hijos.
 
-The following day on April 2, 1939,  Jose Banegas Gil petitioned the Mexican consulate in France for political asylum.
+\[insert the three letters here\]
+
+## Escapando por Mexico
+
+En el 20 de febrero en 1941, la familia llego a San Juan, Puerto rico en un barco de vapor que se llamaba Cuba.
+
+(add Ancestry.com pic of manifest)
+
+En el 9 de marzo 1941, la familiia entraron Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que habia salida la isla de Cuba.
 
 ```{r}
-#| echo: false
-
-library(leaflet)
 
 places <- data.frame(
   name = c(
     "Tangier, Morocco",
-    "Brazil",
     "San Juan, Puerto Rico",
+    "Brazil",
     "Veracruz, Mexico"
   ),
-  lat = c(35.7595, -10.0, 18.4655, 19.1738),
-  lon = c(-5.8340, -45.0, -66.1057, -96.1342)
+  lat = c(
+    35.7595,
+    18.4655,
+    -10.0,
+    19.1738
+  ),
+  lon = c(
+    -5.8340,
+    -66.1057,
+    -45.0,
+    -96.1342
+  )
 )
 
 leaflet::leaflet(places) |>
   leaflet::addTiles() |>
+  
+  # Tangier → San Juan
   leaflet::addPolylines(
     lng = c(places$lon[1], places$lon[2]),
     lat = c(places$lat[1], places$lat[2]),
     weight = 3
   ) |>
+  
+  # San Juan → Brazil
   leaflet::addPolylines(
     lng = c(places$lon[2], places$lon[3]),
     lat = c(places$lat[2], places$lat[3]),
     weight = 3
   ) |>
+  
+  # Brazil → Veracruz
   leaflet::addPolylines(
     lng = c(places$lon[3], places$lon[4]),
     lat = c(places$lat[3], places$lat[4]),
     weight = 3
   ) |>
+  
   leaflet::addCircleMarkers(
     lng = ~lon,
     lat = ~lat,
@@ -137,20 +188,15 @@ leaflet::leaflet(places) |>
   )
 ```
 
-## Entrando a Mexico
-
-En el 20 de febrero en 1941, la familia llego a San Juan, Puerto rico en un barco que se llamaba Cuba.
-
-(add Ancestry.com pic of manifest)
-
-En el 9 de marzo 1941, la familiia entraron Mexico por la puerta de Veracruz en un barco que se llamaba Monterrey que habia salida la isla de Cuba.
+## Entrando Mexico
 
 ```{r}
 
 knitr::include_graphics("images/migration_card_JBG.png")
 
 knitr::include_graphics("images/migration_card_IRR.png")
-  
 ```
 
-test test test
+## 
+
+test
