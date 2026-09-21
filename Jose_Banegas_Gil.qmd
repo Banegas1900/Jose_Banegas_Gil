@@ -85,7 +85,7 @@ leaflet::leaflet(places) |>
 
 ## Escuela, Ejercito, y ser Doctor
 
-Entre 1912 y 1918, José asistió el Instituto General y Tecnico de Murcia[^2]. Sigue el enlace en el footnote para ver su expediente estudantil que incluye su applicacion de 1912, información sobres sus papás, examen de ingreso, y todas de sus califaciónes.
+Entre 1912 y 1918, José asistió el Instituto General y Tecnico de Murcia[^2]. Sigue el enlace en el footnote para ver su expediente estudantil que incluye su applicacion de 1912, información sobre sus papás, examen de ingreso, y todas de sus califaciónes.
 
 [^2]: [Expediente académico de José Banegas Gil](https://archivogeneral.carm.es/archivoGeneral/arg.detalle_documento?idDetalle=3140559#). Archivo General Region De Murcia.
 
@@ -94,7 +94,9 @@ Entre 1912 y 1918, José asistió el Instituto General y Tecnico de Murcia[^2]. 
 knitr::include_graphics("images/expediente_JBG.png")
 ```
 
-En la Gaceta de Madrid en 1922 José fue nombrado como reclutado al ejercito en el 1921.
+En la Gaceta de Madrid en 1922 José fue nombrado como reclutado al ejercito en el 1921[^3].
+
+[^3]: Olaguer Feliu.(1922, 29 de mayo). Reales Ordenes - Ministerio De La Guerra. *Gaceta De Madrid,* núm 149; p. 745-746.
 
 ```{r}
 
