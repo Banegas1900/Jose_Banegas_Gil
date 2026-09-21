@@ -1,5 +1,5 @@
 ---
-title: "Escapar del Fascismo: La Vida de Jose Banegas Gil y su Familia"
+title: "Escaping del Franqismo: La Vida de José Banegas Gil y su Familia"
 format: html
 editor: visual
 execute:
@@ -11,6 +11,10 @@ execute:
 Entre 1936 y 1950, se estima que 20.000 a 25.000 refugiados de la guerra civil española entraron a Mexico[^1]. La familia de José Banegas Gil cuenta en esta cifra.
 
 [^1]: Pla Brugat, D. (1999). [Refugiados Españoles En México: Recuento Y Caracterización](https://muse.jhu.edu/pub/320/oa_edited_volume/chapter/2573845). En *Los refugiados españoles y la cultura mexicana: actas de las segundas jornadas celebradas en El Colegio de México en noviembre de 1996.* El Colegio de México.
+
+Lo que sigue es una serie de fuentes primarias publicadas y al final recuerdos de la familia. En las notas al pie, se pueden encontrar los enlaces a los fuentes primerias publicadas.
+
+## Información Básica
 
 José Banegas Gil nació el 27 de diciembre 1900 en Archena, Murcia, en la region de Murcia en España. Su esposa, Isabel Rubio Redondo, naciò el 24 de abril 1908 en Linares, Jaén en la region de Andalusia en España.\
 
@@ -83,9 +87,9 @@ leaflet::leaflet(places) |>
   )
 ```
 
-## Escuela, Ejercito, y ser Doctor
+## Juventud de José
 
-Entre 1912 y 1918, José asistió el Instituto General y Tecnico de Murcia[^2]. Sigue el enlace en el footnote para ver su expediente estudantil que incluye su applicacion de 1912, información sobre sus papás, examen de ingreso, y todas de sus califaciónes.
+Entre 1912 y 1918, José asistió el Instituto General y Tecnico de Murcia[^2]. Sigue al enlace en la nota al pie para ver su expediente estudantil que incluye su applicacion de 1912, información sobre sus papás, examen de ingreso, y todas de sus califaciónes.
 
 [^2]: [Expediente académico de José Banegas Gil](https://archivogeneral.carm.es/archivoGeneral/arg.detalle_documento?idDetalle=3140559#). Archivo General Region De Murcia.
 
@@ -96,16 +100,16 @@ knitr::include_graphics("images/expediente_JBG.png")
 
 En la Gaceta de Madrid en 1922 José fue nombrado como reclutado al ejercito en el 1921[^3].
 
-[^3]: Olaguer Feliu.(1922, 29 de mayo). [Reales Ordenes - Ministerio De La Guerra](https://www.boe.es/gazeta/dias/1922/05/29/pdfs/GMD-1922-149.pdf). *Gaceta De Madrid,* núm 149; p. 745-746.
+[^3]: Olaguer Feliu. (1922, 29 de mayo). [Reales Ordenes - Ministerio De La Guerra](https://www.boe.es/gazeta/dias/1922/05/29/pdfs/GMD-1922-149.pdf). *Gaceta De Madrid,* núm 149; p. 745-746.
 
 ```{r}
 
 knitr::include_graphics("images/ejercito_1922_JBG.png")
 ```
 
-1927 - Doctor note
+En 1927 José aparece en a lista en la Gaceta de Madrid de doctores que han aprobado el examen para ingresarse al Cuerpo de Inspectores m unicipales de Sanidad[^4].
 
-Josê passed a text to be part of the list of sanitarioums?
+[^4]: Anido, M. (1927, 8 de abril). [Reales Ordenes - Ministerio De La Gobernacion](https://www.boe.es/gazeta/dias/1927/04/08/pdfs/GMD-1927-98.pdf). *Gaceta De Madrid,* núm 98; p. 235-236.
 
 ```{r}
 
@@ -114,16 +118,18 @@ knitr::include_graphics("images/doctor_1927_JBG.png")
 
 ## La Guerra Civil Española
 
-\[insert background info on civil war\]
+\[insert background info on civil war\] \[ADD FOOTNOTE\].
 
-En el Boletín Official de Ceuta en el 23 de febrero, 1939, José fue emplazado por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional".
+En el Boletín Official de Ceuta en el 23 de febrero, 1939, José fue emplazado por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional". \[ADD FOOTNOTE\].
+
+For footnote. Los enlaces para Ceuta no estan funcionando. (add link to the google folder with the pdf?)
 
 ```{r}
 
 knitr::include_graphics("images/boletin_1939.png")
 ```
 
-Cinco semanas después, Franco declararía victoria en el 1 de april, 1939.
+Cinco semanas después, las Nacionalistas entran a Madrid y Franco declararía victoria en el 1 de april, 1939. \[ADD FOOTNOTE\]
 
 ## Solicitando Asilo
 
@@ -204,6 +210,18 @@ knitr::include_graphics("images/migration_card_JBG.png")
 knitr::include_graphics("images/migration_card_IRR.png")
 ```
 
-## 
+## José sigue aparaciendo en las noticias
 
-test
+As his whereabouts were still unknown, José's name would continue to appear in the newspaper in Spain.
+
+- Feb 1943
+
+- Nov 1943
+
+- 21 de febrero 1946
+
+## José en Puebla, Mexico
+
+- pic of José with other doctors
+
+## Recuerdos de la familia
