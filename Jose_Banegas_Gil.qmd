@@ -14,7 +14,7 @@ execute:
 
 Entre 1936 y 1950, se estima que 20.000 a 25.000 refugiados de la guerra civil española entraron a Mexico[@num_refugiados]. La familia de José Banegas Gil cuenta en esta cifra.
 
-Lo que sigue es una serie de fuentes primarias publicadas y al final recuerdos de la familia. En las notas al pie, se pueden encontrar los enlaces a los fuentes primerias publicadas.
+Lo que sigue es una serie de fuentes primarias publicadas. En las notas al pie, se pueden encontrar los enlaces a los fuentes primerias publicadas.
 
 ## Información Básica
 
@@ -127,16 +127,23 @@ knitr::include_graphics("images/boletin_1939.png")
 
 Cinco semanas después, las Nacionalistas entrarón a Madrid y Franco declararía victoria en el 1 de april, 1939 y empezó la dictadura Franquista que duró hasta su muerte en 1975[@guerra_civil].
 
-## Solicitando Asilo
+## Solicitando Asilo Político
 
-Justo el dia siguente en el 2 de abril, 1939, José escribe cartas de Casablanca, Marruecos al consulado Mexicano en Francia solicitando asilo politico para el y su esposa y tres hijos[@carta_exilio1]. Por medio de estas cartas, aprendemos más sobre la vida de José en sus propias palabras.
+Justo el dia siguente en el 2 de abril, 1939, José escribe cartas de Casablanca, Marruecos al consulado Mexicano en Francia solicitando asilo politico para él y su esposa y tres hijos. Por medio de estas cartas, aprendemos más sobre la vida de José en sus propias palabras.
+
+En la primera carta, José escribió que...[@carta_exilio1].
 
 ```{r}
 
 knitr::include_graphics("images/exilio_doc1.png")
 ```
 
-\[insert the three docs here\]
+En la segunda carta, José escribió que...[@carta_exilio2].
+
+```{r}
+
+knitr::include_graphics("images/exilio_doc2.png")
+```
 
 ## Escapando por Mexico
 
