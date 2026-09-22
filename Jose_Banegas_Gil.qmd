@@ -1,5 +1,5 @@
 ---
-title: "Escaping del Franqismo: La Vida de José Banegas Gil y su Familia"
+title: "Escapando del Franqismo: La Vida de José Banegas Gil y su Familia"
 format:
   html:
     suppress-bibliography: true
@@ -112,26 +112,31 @@ En 1927 José aparece en una lista en la Gaceta de Madrid de doctores que han ap
 knitr::include_graphics("images/doctor_1927_JBG.png")
 ```
 
-## La Guerra Civil Española
+## España en Crisis
 
-\[insert background info on civil war\] \[ADD FOOTNOTE\].
+PARRAFO DE BACKGROUND INFO Para los años 30, España habia llegado a un periodo de crisis[@guerra_civil]. ADD MORE.
 
-En el Boletín Official de Ceuta en el 23 de febrero, 1939, José fue emplazado por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional". \[ADD FOOTNOTE\].
+Law of Political Responsibilities - 9 Feb 1939 \[explain and find source\]
 
-For footnote. Los enlaces para Ceuta no estan funcionando. (add link to the google folder with the pdf?)
+Más tarde en el mismo mes, el Boletín Official de Ceuta anuncia que José fue emplazado por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional"[@1939_boletin].
 
 ```{r}
 
 knitr::include_graphics("images/boletin_1939.png")
 ```
 
-Cinco semanas después, las Nacionalistas entran a Madrid y Franco declararía victoria en el 1 de april, 1939. \[ADD FOOTNOTE\]
+Cinco semanas después, las Nacionalistas entrarón a Madrid y Franco declararía victoria en el 1 de april, 1939 y empezó la dictadura Franquista que duró hasta su muerte en 1975[@guerra_civil].
 
 ## Solicitando Asilo
 
-Justo el dia siguente en el 2 de abril, 1939, José escribe cartas al consulado Mexicano en Francia solicitando asilo politico para el y su esposa y tres hijos.
+Justo el dia siguente en el 2 de abril, 1939, José escribe cartas de Casablanca, Marruecos al consulado Mexicano en Francia solicitando asilo politico para el y su esposa y tres hijos[@carta_exilio1]. Por medio de estas cartas, aprendemos más sobre la vida de José en sus propias palabras.
 
-\[insert the three letters here\]
+```{r}
+
+knitr::include_graphics("images/exilio_doc1.png")
+```
+
+\[insert the three docs here\]
 
 ## Escapando por Mexico
 
@@ -198,6 +203,8 @@ leaflet::leaflet(places) |>
 ```
 
 ## Entrando Mexico
+
+Aqui son los documentos para entrar Mexico. Add link to Jose's card: https://pares.cultura.gob.es/MovimientosMigratorios/viewer2Controller.form?nid=7892&accion=4&pila=true
 
 ```{r}
 
