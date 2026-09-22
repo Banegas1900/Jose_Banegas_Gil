@@ -138,14 +138,14 @@ En la primera carta, José escribió que...[@carta_exilio1].
 knitr::include_graphics("images/exilio_doc1.png")
 ```
 
-En la segunda carta, José escribió que...[@carta_exilio2].
+En la segunda carta, José escribió que desde 1928 trabajó como director del dispensario sifelina?? de Larache, Marruecos. El 20 de julio 1936, se mudó a la zona Francesa en Tanger (tres días después del inicio de la guerra civil). En la segunda pagina, dice que su deseo es ir Mexico o Venezuela[@carta_exilio2].
 
 ```{r}
 
 knitr::include_graphics("images/exilio_doc2.png")
 ```
 
-## Escapando por Mexico
+## Escapando a Mexico
 
 En el 20 de febrero en 1941, la familia llego a San Juan, Puerto rico en un barco de vapor que se llamaba Cuba.
 
