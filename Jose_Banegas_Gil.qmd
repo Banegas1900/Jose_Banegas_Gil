@@ -147,20 +147,16 @@ knitr::include_graphics("images/exilio_doc2.png")
 
 ## Escapando a Mexico
 
-En el 20 de febrero en 1941, la familia llegó a San Juan, Puerto Rico por un barco de vapor que había salido de La Guaira, Venezuela. El record dice que la ultima residencia fue Santos, Brazil[@PR_passengerlist].
+Desafortunadamente, no hay un record publicado sobre lo que pasó entre 1939 y 1941.
+
+Sin embargo, los nombres de José, Isabel, y sus tres hijos aparecen en una lista de pasajeros de barcos que llegaron a San Juan, Puerto Rico en el 18 de febrero en 1941. Habían viajado por un barco de vapor que había salido de La Guiara, Venezuela. El record dice que la ultima residencia de la familia fue Santos, Brazil[@PR_passengerlist].
 
 ```{r}
 
 knitr::include_graphics("images/SanJuan_PR.jpg")
 ```
 
-- (Curacao?)
-
-- 
-
-- La Guiara, Venezuela
-
-En el 9 de marzo 1941, la familiia entraron Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que habia salida la isla de Cuba.
+En el 9 de marzo 1941, la familiia entraron a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que habia salida la isla de Cuba.
 
 ```{r}
 
