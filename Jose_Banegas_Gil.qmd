@@ -147,9 +147,18 @@ knitr::include_graphics("images/exilio_doc2.png")
 
 ## Escapando a Mexico
 
-En el 20 de febrero en 1941, la familia llego a San Juan, Puerto rico en un barco de vapor que se llamaba Cuba.
+En el 20 de febrero en 1941, la familia llegó a San Juan, Puerto Rico por un barco de vapor que había salido de La Guaira, Venezuela. El record dice que la ultima residencia fue Santos, Brazil[@PR_passengerlist].
 
-(add Ancestry.com pic of manifest)
+```{r}
+
+knitr::include_graphics("images/SanJuan_PR.jpg")
+```
+
+- (Curacao?)
+
+- 
+
+- La Guiara, Venezuela
 
 En el 9 de marzo 1941, la familiia entraron Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que habia salida la isla de Cuba.
 
