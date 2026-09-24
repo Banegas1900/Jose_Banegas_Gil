@@ -44,6 +44,10 @@ places <- data.frame(
   lon = c(
     -1.3000,
     -3.6360
+  ),
+  popup = c(
+    "José Banegas Gil. Nacido: 1900.",
+    "Isabel Rubio Redondo. Nacida: 1908."
   )
 )
 
@@ -54,7 +58,7 @@ leaflet::leaflet(places) |>
     lat = ~lat,
     radius = 7,
     fillOpacity = 1,
-    popup = ~name
+    popup = ~popup
   ) |>
   leaflet::addLabelOnlyMarkers(
     lng = ~lon,
@@ -105,7 +109,7 @@ En la Gaceta de Madrid en 1922 José fue nombrado como reclutado al ejercito en 
 knitr::include_graphics("images/ejercito_1922_JBG.png")
 ```
 
-En 1927 José aparece en una lista en la Gaceta de Madrid de doctores que han aprobado el examen para ingresarse al Cuerpo de Inspectores m unicipales de Sanidad[@1927_doctor].
+En 1927 José aparece en una lista en la Gaceta de Madrid de doctores que han aprobado el examen para ingresarse al Cuerpo de Inspectores Municipales de Sanidad[@1927_doctor].
 
 ```{r}
 
@@ -118,7 +122,7 @@ PARRAFO DE BACKGROUND INFO Para los años 30, España habia llegado a un periodo
 
 Law of Political Responsibilities - 9 Feb 1939 \[explain and find source\]
 
-Más tarde en el mismo mes, el Boletín Official de Ceuta anuncia que José fue emplazado por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional"[@1939_boletin].
+En el mismo mes, el Boletín Official de Ceuta anuncia que José fue emplazado por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional"[@1939_boletin].
 
 ```{r}
 
@@ -145,18 +149,20 @@ En la segunda carta, José escribió que desde 1928 trabajó como director del d
 knitr::include_graphics("images/exilio_doc2.png")
 ```
 
+Map: Archena - Larache, Tanger -\> casablanca?
+
 ## Escapando a Mexico
 
 Desafortunadamente, no hay un record publicado sobre lo que pasó entre 1939 y 1941.
 
-Sin embargo, los nombres de José, Isabel, y sus tres hijos aparecen en una lista de pasajeros de barcos que llegaron a San Juan, Puerto Rico en el 18 de febrero en 1941. Habían viajado por un barco de vapor que había salido de La Guiara, Venezuela. El record dice que la ultima residencia de la familia fue Santos, Brazil[@PR_passengerlist].
+Sin embargo, los nombres de José, Isabel, y sus tres hijos aparecen en una lista de pasajeros de barcos que llegaron a San Juan, Puerto Rico en el 18 de febrero en 1941. Habían viajado por un barco de vapor que había salido de La Guaira, Venezuela. El record dice que la ultima residencia de la familia fue Santos, Brazil[@PR_passengerlist].
 
 ```{r}
 
-knitr::include_graphics("images/SanJuan_PR.jpg")
+knitr::include_graphics("images/SanJuan_PR.png")
 ```
 
-En el 9 de marzo 1941, la familiia entraron a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que habia salida la isla de Cuba.
+En el 9 de marzo 1941, la familiia entraron a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que había salido de Santos, Brasil.
 
 ```{r}
 
@@ -164,19 +170,19 @@ places <- data.frame(
   name = c(
     "Tangier, Morocco",
     "San Juan, Puerto Rico",
-    "Brazil",
+    "Santos, Brazil",
     "Veracruz, Mexico"
   ),
   lat = c(
     35.7595,
     18.4655,
-    -10.0,
+    -23.9609,
     19.1738
   ),
   lon = c(
     -5.8340,
     -66.1057,
-    -45.0,
+    -46.3166,
     -96.1342
   )
 )
@@ -216,7 +222,7 @@ leaflet::leaflet(places) |>
 
 ## Entrando Mexico
 
-Aqui son los documentos para entrar Mexico. Add link to Jose's card: https://pares.cultura.gob.es/MovimientosMigratorios/viewer2Controller.form?nid=7892&accion=4&pila=true
+Aqui son los documentos para entrar Mexico[@JBG_immig_doc][@IRR_immig_doc]. El documento dice que su primera lugar residencia fue 211 Amsterdam en la Ciudad de Mexico.
 
 ```{r}
 
@@ -227,7 +233,7 @@ knitr::include_graphics("images/migration_card_IRR.png")
 
 ## José sigue aparaciendo en las noticias
 
-As his whereabouts were still unknown, José's name would continue to appear in the newspaper in Spain.
+As his whereabouts were still unknown to the Spanish government, José's name would continue to appear in the newspaper in Spain.
 
 - Feb 1943
 
@@ -239,4 +245,4 @@ As his whereabouts were still unknown, José's name would continue to appear in 
 
 - pic of José with other doctors
 
-## Recuerdos de la familia
+## Recuerdos de la familia?
