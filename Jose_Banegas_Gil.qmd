@@ -131,16 +131,16 @@ knitr::include_graphics("images/boletin_1939.png")
 
 Cinco semanas después, las Nacionalistas entrarón a Madrid y Franco declararía victoria en el 1 de april, 1939 y empezó la dictadura Franquista que duró hasta su muerte en 1975[@guerra_civil].
 
-Resulta que José fue miembro de dos grupos ya ilegales segun la Lay de Responsabilades Políticas: El Partido Socialista Obrero Español (PSOE) y La Unión General de Trabajadores (UGT). Tenemos el record publicado y en su propias palabras.
+Resulta que José fue miembro de dos grupos ya ilegales segun la Lay de Responsabilades Políticas: El Partido Socialista Obrero Español (PSOE) y La Unión General de Trabajadores (UGT). Tenemos el record publicado y en su propias palabras:
 
-Josê está nombrado en una lista de los refugiados españoles residentes en marruecos a quienes se documentó como inmigrantes aceptados por la legación de México[@pso_174, p. 427]. Dice que filiación politica es PSO.
+José está nombrado en una lista de los refugiados españoles residentes en marruecos a quienes se documentó como inmigrantes aceptados por la legación de México[@pso_174, p. 427]. Dice que filiación politica es PSO.
 
 ```{r}
 
 knitr::include_graphics("images/PSO_174.png")
 ```
 
-En su expediente como refugiado en México, José se identifica parte del PSOE y UGT en Tánger[@expediente_ref].
+En su expediente como refugiado en México, José se identifica como parte del PSOE y UGT en Tánger[@expediente_ref].
 
 ```{r}
 
@@ -178,14 +178,14 @@ Sin embargo, los nombres de José, Isabel, y sus tres hijos aparecen en una list
 knitr::include_graphics("images/SanJuan_PR.png")
 ```
 
-A continuación, en el 9 de marzo 1941, la familiia entró a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que había salido de Habana, Cuba.
+A continuación, en el 9 de marzo 1941, la familiia entró a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que había salido de Habana, Cuba[@expediente_JARE, p. 6].
 
 ```{r}
 
 knitr::include_graphics("images/expediente_cuba_mex.png")
 ```
 
-No tenemos todo el record publicado del viaje, no obstante, podemos asumir que escaparon Marruecos en 1939 para Santos, Brazil -\> La Guaira, Venezuela -\> San Juan, Puerto Rico -\> Habana, Cuba -\> Veracruz, México en 1941.
+No tenemos todo el record publicado del viaje, no obstante, podemos asumir que la familia escapó Marruecos en 1939 para Santos, Brazil -\> La Guaira, Venezuela -\> San Juan, Puerto Rico -\> Habana, Cuba -\> finalmente llegó a Veracruz, México en 1941.
 
 ```{r}
 
@@ -288,9 +288,11 @@ leaflet::leaflet(places) |>
   )
 ```
 
-## Entrando Mexico
+## Entrando a México
 
-Aqui son los documentos para entrar Mexico[@JBG_immig_doc][@IRR_immig_doc]. El documento dice que su primera lugar residencia fue 211 Amsterdam en la Ciudad de Mexico.
+(decide to include this or not: <https://www.cervantesvirtual.com/descargaPdf/libro-de-actas-de-la-junta-de-auxilio-a-los-republicanos-espanoles-libros-iii-y-iv-1941-1942-844113/>)
+
+Aquí son los documentos de inmigración para entrar a Mexico[@JBG_immig_doc][@IRR_immig_doc]. El documento dice que su primera lugar residencia fue 211 Amsterdam en la Ciudad de Mexico.
 
 ```{r}
 
@@ -299,13 +301,22 @@ knitr::include_graphics("images/migration_card_JBG.png")
 knitr::include_graphics("images/migration_card_IRR.png")
 ```
 
-Expediente en Mexico
+Asimismo, tenemos el record de correspondencia entre José y la Junta de Auxilio A Los Republicanos Españoles (J.A.R.E.)[@expediente_ref].
 
-Aqui es el expediente de José de la Junta de Auxilio A Los Republicanos Españoles: <https://github.com/Banegas1900/Jose_Banegas_Gil/blob/main/images/PARES_Spanish%20Archives.pdf>
+Sigue al enlace en la nota al pie para ver el expediente. Nota: Haz click en 'more pages' para ver todas las 31 paginas del expediente. Para leer los documentos cronológicamente, se debe leer de la última pagina hasta la primera.
 
-## José sigue aparaciendo en las noticias
+Abajo es la primera carta que José escribió a la J.A.R.E. Adentro se puede entender como José y la familia habían luchado en las primeras semanas en México como refugiados.
 
-As his whereabouts were still unknown to the Spanish government, José's name would continue to appear in the newspaper in Spain.
+```{r}
+
+knitr::include_graphics("images/expediente_carta1.png")
+```
+
+Ultimamente, la J.A.R.E. se le otorga un subsidio de seis meses fuera del capital para mudarse a Puebla, Puebla en el 22 de mayo 1941[@expediente_JARE].
+
+## José sigue aparaciendo en las noticias en España
+
+Como su paradero era desconocido por el gobierno de España, el nombre de José aparece hastá 1946 en las noticias Españolas.
 
 - Feb 1943
 
@@ -316,5 +327,3 @@ As his whereabouts were still unknown to the Spanish government, José's name wo
 ## José en Puebla, Mexico
 
 - pic of José with other doctors
-
-## Recuerdos de la familia?
