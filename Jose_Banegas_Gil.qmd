@@ -131,9 +131,25 @@ knitr::include_graphics("images/boletin_1939.png")
 
 Cinco semanas después, las Nacionalistas entrarón a Madrid y Franco declararía victoria en el 1 de april, 1939 y empezó la dictadura Franquista que duró hasta su muerte en 1975[@guerra_civil].
 
+Resulta que José fue miembro de dos grupos ya ilegales segun la Lay de Responsabilades Políticas: El Partido Socialista Obrero Español (PSOE) y La Unión General de Trabajadores (UGT). Tenemos el record publicado y en su propias palabras.
+
+Josê está nombrado en una lista de los refugiados españoles residentes en marruecos a quienes se documentó como inmigrantes aceptados por la legación de México[@pso_174, p. 427]. Dice que filiación politica es PSO.
+
+```{r}
+
+knitr::include_graphics("images/PSO_174.png")
+```
+
+En su expediente como refugiado en México, José se identifica parte del PSOE y UGT en Tánger[@expediente_ref].
+
+```{r}
+
+knitr::include_graphics("images/PSO_UGT.png")
+```
+
 ## Solicitando Asilo Político
 
-Justo el dia siguente en el 2 de abril, 1939, José escribe cartas de Casablanca al consulado Mexicano en Francia solicitando asilo politico para él y su esposa y tres hijos. Por medio de estas cartas, aprendemos más sobre la vida de José en sus propias palabras.
+En el 2 de abril, 1939, el día después del fin de la guerra civil, José escribe cartas de Casablanca al consulado Mexicano en Francia solicitando asilo politico para él y su esposa y tres hijos. Por medio de estas cartas, aprendemos más sobre la vida de José en sus propias palabras.
 
 En la primera carta, José escribió que...[@carta_exilio1].
 
@@ -142,72 +158,111 @@ En la primera carta, José escribió que...[@carta_exilio1].
 knitr::include_graphics("images/exilio_doc1.png")
 ```
 
-En la segunda carta, José escribió que desde 1928 trabajó como director del dispensario sifelina?? de Larache, Marruecos. El 20 de julio 1936, se mudó a la zona Francesa en Tanger (tres días después del inicio de la guerra civil). En la segunda pagina, dice que su deseo es ir Mexico o Venezuela[@carta_exilio2].
+1927-1928: Madrid ????
+
+En la segunda carta, José escribió que desde 1928 trabajó como director del Dispensario Indigena de Larache, Marruecos. El 20 de julio 1936, se mudó a la zona Francesa en Tanger (tres días después del inicio de la guerra civil). En la segunda pagina, dice que su deseo es ir Mexico o Venezuela[@carta_exilio2].
 
 ```{r}
 
 knitr::include_graphics("images/exilio_doc2.png")
 ```
 
-Map: Archena - Larache, Tanger -\> casablanca?
+## Escapando a México
 
-## Escapando a Mexico
+Desafortunadamente, no hay un record publicado sobre como salió la familia de Marruecos.
 
-Desafortunadamente, no hay un record publicado sobre lo que pasó entre 1939 y 1941.
-
-Sin embargo, los nombres de José, Isabel, y sus tres hijos aparecen en una lista de pasajeros de barcos que llegaron a San Juan, Puerto Rico en el 18 de febrero en 1941. Habían viajado por un barco de vapor que había salido de La Guaira, Venezuela. El record dice que la ultima residencia de la familia fue Santos, Brazil[@PR_passengerlist].
+Sin embargo, los nombres de José, Isabel, y sus tres hijos aparecen en una lista de pasajeros de barcos que llegaron a San Juan, Puerto Rico en el 18 de febrero en 1941. Habían viajado por un barco de vapor que había salido de La Guaira, Venezuela. Además, el record dice que la ultima residencia de la familia fue Santos, Brazil[@PR_passengerlist].
 
 ```{r}
 
 knitr::include_graphics("images/SanJuan_PR.png")
 ```
 
-En el 9 de marzo 1941, la familiia entraron a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que había salido de Santos, Brasil.
+A continuación, en el 9 de marzo 1941, la familiia entró a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que había salido de Habana, Cuba.
+
+```{r}
+
+knitr::include_graphics("images/expediente_cuba_mex.png")
+```
+
+No tenemos todo el record publicado del viaje, no obstante, podemos asumir que escaparon Marruecos en 1939 para Santos, Brazil -\> La Guaira, Venezuela -\> San Juan, Puerto Rico -\> Habana, Cuba -\> Veracruz, México en 1941.
 
 ```{r}
 
 places <- data.frame(
   name = c(
-    "Tangier, Morocco",
-    "San Juan, Puerto Rico",
+    "Casablanca, Morocco",
     "Santos, Brazil",
+    "La Guaira, Venezuela",
+    "San Juan, Puerto Rico",
+    "Habana, Cuba",
     "Veracruz, Mexico"
   ),
   lat = c(
-    35.7595,
-    18.4655,
+    33.5731,
     -23.9609,
+    10.5990,
+    18.4655,
+    23.1136,
     19.1738
   ),
   lon = c(
-    -5.8340,
-    -66.1057,
+    -7.5898,
     -46.3166,
+    -66.9286,
+    -66.1057,
+    -82.3666,
     -96.1342
   )
 )
 
+# Initial map view
+home_lng <- -55
+home_lat <- 8
+home_zoom <- 2
+
 leaflet::leaflet(places) |>
   leaflet::addTiles() |>
   
-  # Tangier → San Juan
+  # Set initial view
+  leaflet::setView(
+    lng = home_lng,
+    lat = home_lat,
+    zoom = home_zoom
+  ) |>
+  
+  # Casablanca → Santos
   leaflet::addPolylines(
     lng = c(places$lon[1], places$lon[2]),
     lat = c(places$lat[1], places$lat[2]),
     weight = 3
   ) |>
   
-  # San Juan → Brazil
+  # Santos → La Guaira
   leaflet::addPolylines(
     lng = c(places$lon[2], places$lon[3]),
     lat = c(places$lat[2], places$lat[3]),
     weight = 3
   ) |>
   
-  # Brazil → Veracruz
+  # La Guaira → San Juan
   leaflet::addPolylines(
     lng = c(places$lon[3], places$lon[4]),
     lat = c(places$lat[3], places$lat[4]),
+    weight = 3
+  ) |>
+  
+  # San Juan → Habana
+  leaflet::addPolylines(
+    lng = c(places$lon[4], places$lon[5]),
+    lat = c(places$lat[4], places$lat[5]),
+    weight = 3
+  ) |>
+  
+  # Habana → Veracruz
+  leaflet::addPolylines(
+    lng = c(places$lon[5], places$lon[6]),
+    lat = c(places$lat[5], places$lat[6]),
     weight = 3
   ) |>
   
@@ -217,6 +272,19 @@ leaflet::leaflet(places) |>
     radius = 7,
     popup = ~name,
     fillOpacity = 1
+  ) |>
+  
+  # Home button
+  leaflet::addEasyButton(
+    leaflet::easyButton(
+      icon = "fa-home",
+      title = "Home",
+      onClick = htmlwidgets::JS(
+        "function(btn, map){
+          map.setView([8, -55], 2);
+        }"
+      )
+    )
   )
 ```
 
@@ -230,6 +298,10 @@ knitr::include_graphics("images/migration_card_JBG.png")
 
 knitr::include_graphics("images/migration_card_IRR.png")
 ```
+
+Expediente en Mexico
+
+Aqui es el expediente de José de la Junta de Auxilio A Los Republicanos Españoles: <https://github.com/Banegas1900/Jose_Banegas_Gil/blob/main/images/PARES_Spanish%20Archives.pdf>
 
 ## José sigue aparaciendo en las noticias
 
