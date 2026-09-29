@@ -149,7 +149,7 @@ knitr::include_graphics("images/PSO_UGT.png")
 
 ## Solicitando Asilo Político
 
-En el 2 de abril, 1939, el día después del fin de la guerra civil, José escribe cartas de Casablanca al consulado Mexicano en Francia solicitando asilo politico para él y su esposa y tres hijos. Por medio de estas cartas, aprendemos más sobre la vida de José en sus propias palabras.
+En el 2 de abril, 1939, el día después del fin de la guerra civil, José escribe cartas de Casablanca al consulado Mexicano en Francia solicitando asilo politico para él y su esposa, Isabel, y tres hijos: José, Isabel, y Encarnación. Por medio de estas cartas, aprendemos más sobre la vida de José en sus propias palabras.
 
 En la primera carta, José escribió que...[@carta_exilio1].
 
@@ -183,6 +183,13 @@ A continuación, en el 9 de marzo 1941, la familiia entró a Mexico por la puert
 ```{r}
 
 knitr::include_graphics("images/expediente_cuba_mex.png")
+```
+
+Y el viaje de Cuba a Mexico originalmente fue pagado por La Junta de Auxilio de Los Republicanos Españoles (JARE)[@JUNTA].
+
+```{r}
+
+knitr::include_graphics("images/JUNTA_abonar.png")
 ```
 
 No tenemos todo el record publicado del viaje, no obstante, podemos asumir que la familia escapó Marruecos en 1939 para Santos, Brazil -\> La Guaira, Venezuela -\> San Juan, Puerto Rico -\> Habana, Cuba -\> finalmente llegó a Veracruz, México en 1941.
@@ -290,8 +297,6 @@ leaflet::leaflet(places) |>
 
 ## Entrando a México
 
-(decide to include this or not: <https://www.cervantesvirtual.com/descargaPdf/libro-de-actas-de-la-junta-de-auxilio-a-los-republicanos-espanoles-libros-iii-y-iv-1941-1942-844113/>)
-
 Aquí son los documentos de inmigración para entrar a Mexico[@JBG_immig_doc][@IRR_immig_doc]. El documento dice que su primera lugar residencia fue 211 Amsterdam en la Ciudad de Mexico.
 
 ```{r}
@@ -325,7 +330,7 @@ En el 12 de february 1943, el Boletin Oficial Del Estado José en nombrado de un
 knitr::include_graphics("images/boletin_Feb1943.png")
 ```
 
-Más tarde en el 17 de noviembre 1943 el Boletin Oficial Del Estado, José es condenado 'como autor de un delito consumado de Masonería' y declara el orden de 'la busca, captura y prisión del condenado'.\[ADD SOURCE NOTE\]
+Más tarde en el 17 de noviembre 1943 el Boletin Oficial Del Estado, José está condenado 'como autor de un delito consumado de Masonería' y declara el orden de 'la busca, captura y prisión del condenado'.\[ADD SOURCE NOTE\]
 
 ```{r}
 
@@ -343,6 +348,11 @@ knitr::include_graphics("images/boletin_1946.png")
 
 ## José en Puebla, Mexico
 
-- pic of José with other doctors
+El único record de José es el siguiente foto en frente del Sanatorio de Puebla en 1955.
 
-Creditos - hecho con amor para los descendientes de José y Isabel.
+```{r}
+
+knitr::include_graphics("images/Puebla.jpeg")
+```
+
+Creditos - hecho con amor para los descendientes de José y Isabel, y sus tres hijos: José, Isabel, y Encarnación.
