@@ -178,7 +178,7 @@ Sin embargo, los nombres de José, Isabel, y sus tres hijos aparecen en una list
 knitr::include_graphics("images/SanJuan_PR.png")
 ```
 
-A continuación, en el 9 de marzo 1941, la familiia entró a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que había salido de Habana, Cuba[@expediente_JARE, p. 6].
+A continuación, en el 9 de marzo 1941, la familiia entró a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que había salido de Habana, Cuba[@expediente_ref, p. 6].
 
 ```{r}
 
@@ -305,25 +305,44 @@ Asimismo, tenemos el record de correspondencia entre José y la Junta de Auxilio
 
 Sigue al enlace en la nota al pie para ver el expediente. Nota: Haz click en 'more pages' para ver todas las 31 paginas del expediente. Para leer los documentos cronológicamente, se debe leer de la última pagina hasta la primera.
 
-Abajo es la primera carta que José escribió a la J.A.R.E. Adentro se puede entender como José y la familia habían luchado en las primeras semanas en México como refugiados.
+Abajo es la primera carta que José escribió a la J.A.R.E. Con esta carta se puede entender como José y la familia habían luchado en las primeras semanas en México como refugiados.
 
 ```{r}
 
 knitr::include_graphics("images/expediente_carta1.png")
 ```
 
-Ultimamente, la J.A.R.E. se le otorga un subsidio de seis meses fuera del capital para mudarse a Puebla, Puebla en el 22 de mayo 1941[@expediente_JARE].
+Ultimamente, la J.A.R.E. se le otorga un subsidio de seis meses fuera del capital para mudarse a Puebla, Puebla en el 22 de mayo 1941[@expediente_ref].
 
-## José sigue aparaciendo en las noticias en España
+## José en las noticias en España
 
 Como su paradero era desconocido por el gobierno de España, el nombre de José aparece hastá 1946 en las noticias Españolas.
 
-- Feb 1943
+En el 12 de february 1943, el Boletin Oficial Del Estado José en nombrado de un grupo que fue emplazado entre diez días y que habrá consequencías legales si no aparecen antes el juez. \[ADD SOURCE NOTE\]
 
-- Nov 1943
+```{r}
 
-- 21 de febrero 1946
+knitr::include_graphics("images/boletin_Feb1943.png")
+```
+
+Más tarde en el 17 de noviembre 1943 el Boletin Oficial Del Estado, José es condenado 'como autor de un delito consumado de Masonería' y declara el orden de 'la busca, captura y prisión del condenado'.\[ADD SOURCE NOTE\]
+
+```{r}
+
+knitr::include_graphics("images/boletin_Nov1943.png")
+```
+
+En el 21 de febrero 1946 en el Boletín Oficial de Ceuta, dice que José puede recobrar sus bienes. Podemos asumir que José nunca recibio el mensaje. \[ADD SOURCE NOTE\]
+
+\[ADD SCHOLARLY NOTE ON WHY THE COMMISSION CHANGED TO THE LIQUIDATION COMMISION AND CLOSED CASES\]
+
+```{r}
+
+knitr::include_graphics("images/boletin_1946.png")
+```
 
 ## José en Puebla, Mexico
 
 - pic of José with other doctors
+
+Creditos - hecho con amor para los descendientes de José y Isabel.
