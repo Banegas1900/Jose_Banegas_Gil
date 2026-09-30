@@ -1,5 +1,5 @@
 ---
-title: "Escapando del Franqismo: La Vida de José Banegas Gil y su Familia"
+title: "Huyendo del Franqismo: La Vida de José Banegas Gil y su Familia"
 format:
   html:
     suppress-bibliography: true
@@ -118,9 +118,15 @@ knitr::include_graphics("images/doctor_1927_JBG.png")
 
 ## España en Crisis
 
-PARRAFO DE BACKGROUND INFO Para los años 30, España habia llegado a un periodo de crisis[@guerra_civil]. ADD MORE.
+Para los años 30, España habia llegado a un periodo de crisis. Convocarón elecciones en 1931 despues de una dictadura de general Primo de Rivera que habîa perdido su apoyo del militar y del rey Alfonso XIII trás la presión de varios grupos así como elites intelectuales, grupos obreros, partidarios republicanos, estudiantes universitarios y militantes de izquierda. Las elecciónes dió lugar a la proclamación de la Segunda Republica Española y la abdicación del rey Alfonso XIII. Era una época de reforma social y al mismo tiempo de golpes de estado y huelgas.
 
-Law of Political Responsibilities - 9 Feb 1939 \[explain and find source\]
+Más tarde en las elecciónes de 1936, ganaron una coalición izquierda, el Frente Popular, que consistió del Partido Socialista Obrero Español, sectores anarquistas, sindicalistas y comunistas, campesinos, y movimientos autonomas. Con todas las reformas sociales de los republicanos, surgió una oposicion nacionalista que consistió de grupos monárquicos, terratenientes, conservadores, la Iglesia Católica, la alta burguesía, y el alto mando militar.
+
+La guerra civil Española estalló el 17 de julio de 1936 con una insurreción militar encabezado por general Francisco Franco en Melilla[@guerra_civil].
+
+## La Represión Franquista 
+
+Tres años después, llegando al fin de la guerra, las nacionalistas habían controlado casí todo el país. En el 9 de febrero de 1939, Franco firmó la Ley de Responsibilidades Políticas. Esta ley prohibió participación en partidos y grupos considerado opuesto del Movimento Nacional[@Andalan].
 
 En el mismo mes, el Boletín Official de Ceuta anuncia que José fue emplazado por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional"[@1939_boletin].
 
@@ -133,7 +139,7 @@ Cinco semanas después, las Nacionalistas entrarón a Madrid y Franco declararí
 
 Resulta que José fue miembro de dos grupos ya ilegales segun la Lay de Responsabilades Políticas: El Partido Socialista Obrero Español (PSOE) y La Unión General de Trabajadores (UGT). Tenemos el record publicado y en su propias palabras:
 
-José está nombrado en una lista de los refugiados españoles residentes en marruecos a quienes se documentó como inmigrantes aceptados por la legación de México[@pso_174, p. 427]. Dice que filiación politica es PSO.
+José está nombrado en una lista de los refugiados españoles residentes en Marruecos a quienes se documentó como inmigrantes aceptados por la legación de México[@pso_174, p. 427]. Dice que filiación politica es PSO.
 
 ```{r}
 
@@ -157,8 +163,6 @@ En la primera carta, José escribió que...[@carta_exilio1].
 
 knitr::include_graphics("images/exilio_doc1.png")
 ```
-
-1927-1928: Madrid ????
 
 En la segunda carta, José escribió que desde 1928 trabajó como director del Dispensario Indigena de Larache, Marruecos. El 20 de julio 1936, se mudó a la zona Francesa en Tanger (tres días después del inicio de la guerra civil). En la segunda pagina, dice que su deseo es ir Mexico o Venezuela[@carta_exilio2].
 
@@ -297,7 +301,7 @@ leaflet::leaflet(places) |>
 
 ## Entrando a México
 
-Aquí son los documentos de inmigración para entrar a Mexico[@JBG_immig_doc][@IRR_immig_doc]. El documento dice que su primera lugar residencia fue 211 Amsterdam en la Ciudad de Mexico.
+Aquí son los documentos de inmigración para entrar a Mexico[@JBG_immig_doc; @IRR_immig_doc]. El documento dice que su primera lugar residencia fue 211 Amsterdam en la Ciudad de Mexico.
 
 ```{r}
 
@@ -348,11 +352,13 @@ knitr::include_graphics("images/boletin_1946.png")
 
 ## José en Puebla, Mexico
 
-El único record de José es el siguiente foto en frente del Sanatorio de Puebla en 1955.
+El único record de José es el siguiente foto en frente del Sanatorio Español de Puebla en 1955[@PUEBLA].
 
 ```{r}
 
 knitr::include_graphics("images/Puebla.jpeg")
 ```
 
-Creditos - hecho con amor para los descendientes de José y Isabel, y sus tres hijos: José, Isabel, y Encarnación.
+Creditos:
+
+Hecho por Alex Balcázar con amor para todos los descendientes de José y Isabel, y sus tres hijos: José, Isabel, y Encarnación.
