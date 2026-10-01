@@ -1,5 +1,5 @@
 ---
-title: "Huyendo del Franqismo: La Vida de José Banegas Gil y su Familia"
+title: "Huyendo del Franquismo: La Vida de José Banegas Gil y su Familia"
 format:
   html:
     suppress-bibliography: true
@@ -12,13 +12,13 @@ execute:
 
 ## Introducción
 
-Entre 1936 y 1950, se estima que 20.000 a 25.000 refugiados de la guerra civil española entraron a Mexico[@num_refugiados]. La familia de José Banegas Gil cuenta en esta cifra.
+Entre 1936 y 1950, se estima que entre 20.000 a 25.000 refugiados de la guerra civil española entraron a Mexico[@num_refugiados]. La familia de José Banegas Gil cuenta en esta cifra.
 
-Lo que sigue es una serie de fuentes primarias publicadas. En las notas al pie, se pueden encontrar los enlaces a los fuentes primerias publicadas.
+Lo que sigue es una serie de fuentes primarias publicadas. En las notas al pie, se pueden encontrar los enlaces a las fuentes primarias publicadas.
 
 ## Información Básica
 
-José Banegas Gil nació el 27 de diciembre 1900 en Archena, Murcia, en la region de Murcia en España. Su esposa, Isabel Rubio Redondo, naciò el 24 de abril 1908 en Linares, Jaén en la region de Andalusia en España.\
+José Banegas Gil nació el 27 de diciembre1900 en Archena, Murcia, en la region de Murcia en España. Su esposa, Isabel Rubio Redondo, naciò el 24 de abril 1908 en Linares, Jaén en la region de Andalucía en España.\
 
 ```{r}
 #| layout-ncol: 2
@@ -93,23 +93,23 @@ leaflet::leaflet(places) |>
   )
 ```
 
-## Juventud de José
+## La Etapa de La Juventud de José
 
-Entre 1912 y 1918, José asistió el Instituto General y Tecnico de Murcia[@expediente_academico]. Sigue al enlace en la nota al pie para ver su expediente académico que incluye su applicacion de 1912, información sobre sus papás, examen de ingreso, y todas de sus califaciónes.
+Entre 1912 y 1918, José asistió al Instituto General y Tecnico de Murcia[@expediente_academico]. Consulta el enlace en la nota de pie para ver su expediente académico que incluye: su applicación de 1912, la información sobre sus papás, el examen de ingreso, y todas sus califaciones.
 
 ```{r}
 
 knitr::include_graphics("images/expediente_JBG.png")
 ```
 
-En la Gaceta de Madrid en 1922 José fue nombrado como reclutado al ejercito en el 1921[@1922_reclutado].
+En la Gaceta de Madrid en 1922, José fue reclutado al ejército en el 1921[@1922_reclutado].
 
 ```{r}
 
 knitr::include_graphics("images/ejercito_1922_JBG.png")
 ```
 
-En 1927 José aparece en una lista en la Gaceta de Madrid de doctores que han aprobado el examen para ingresarse al Cuerpo de Inspectores Municipales de Sanidad[@1927_doctor].
+En 1927, José aparece en una lista en la Gaceta de Madrid de doctores que aprobaron el examen para ingresar al Cuerpo de Inspectores Municipales de Sanidad[@1927_doctor].
 
 ```{r}
 
@@ -118,35 +118,35 @@ knitr::include_graphics("images/doctor_1927_JBG.png")
 
 ## España en Crisis
 
-Para los años 30, España habia llegado a un periodo de crisis. Convocarón elecciones en 1931 despues de una dictadura de general Primo de Rivera que habîa perdido su apoyo del militar y del rey Alfonso XIII trás la presión de varios grupos así como elites intelectuales, grupos obreros, partidarios republicanos, estudiantes universitarios y militantes de izquierda. Las elecciónes dió lugar a la proclamación de la Segunda Republica Española y la abdicación del rey Alfonso XIII. Era una época de reforma social y al mismo tiempo de golpes de estado y huelgas.
+Para los años 30, España había llegado a un periodo en crisis. Se convocaron elecciones en 1931, después de haber pasado por una dictadura del general Primo de Rivera. El general habîa perdido el apoyo del militar y del rey Alfonso XIII trás debido la presión de varios grupos. Entre ellos se encontraban las elites intelectuales, grupos obreros, partidarios republicanos, estudiantes universitarios y militantes de izquierda. Las elecciones dieron lugar a la proclamación de la Segunda Republica Española y la abdicación del rey Alfonso XIII. Era una época de reforma social y al mismo tiempo de golpes de estado y huelgas.
 
-Más tarde en las elecciónes de 1936, ganaron una coalición izquierda, el Frente Popular, que consistió del Partido Socialista Obrero Español, sectores anarquistas, sindicalistas y comunistas, campesinos, y movimientos autonomas. Con todas las reformas sociales de los republicanos, surgió una oposicion nacionalista que consistió de grupos monárquicos, terratenientes, conservadores, la Iglesia Católica, la alta burguesía, y el alto mando militar.
+Más tarde en las elecciones de 1936, ganó una coalición de izquierda, llamada el Frente Popular, que consistió del Partido Socialista Obrero Español, sectores anarquistas, sindicalistas y comunistas, campesinos, y movimientos autonomos. Debido a todas las reformas sociales de los republicanos, surgió una oposición nacionalista que consistió de grupos monárquicos, terratenientes, conservadores, la Iglesia Católica, la alta burguesía, y el alto mando militar.
 
-La guerra civil Española estalló el 17 de julio de 1936 con una insurreción militar encabezado por general Francisco Franco en Melilla[@guerra_civil].
+La guerra civil Española estalló el 17 de julio de 1936 con una insurreción militar encabezada por el general Francisco Franco en la ciudad de Melilla[@guerra_civil].
 
 ## La Represión Franquista 
 
-Tres años después, llegando al fin de la guerra, las nacionalistas habían controlado casí todo el país. En el 9 de febrero de 1939, Franco firmó la Ley de Responsibilidades Políticas. Esta ley prohibió participación en partidos y grupos considerado opuesto del Movimento Nacional[@Andalan].
+Tres años después, llegando al fin de la guerra, los nacionalistas habían controlado casí todo el país. En el 9 de febrero de 1939, Franco firmó la Ley de Responsibilidades Políticas. Esta ley prohibió participación en partidos y grupos considerados opuestos al Movimento Nacional[@Andalan].
 
-En el mismo mes, el Boletín Official de Ceuta anuncia que José fue emplazado por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional"[@1939_boletin].
+En el mismo mes, el Boletín Oficial de Ceuta anunció que José fue citado a comparecer por la Comisíon de Incautación de Bienes de la Plaza de Ceuta por su "oposición y actividades contrarias al Glorioso Movimiento Nacional"[@1939_boletin].
 
 ```{r}
 
 knitr::include_graphics("images/boletin_1939.png")
 ```
 
-Cinco semanas después, las Nacionalistas entrarón a Madrid y Franco declararía victoria en el 1 de april, 1939 y empezó la dictadura Franquista que duró hasta su muerte en 1975[@guerra_civil].
+Cinco semanas después, los nacionalistas entraron a Madrid, y ese entonces, Franco declararía victoria el 1 de abril 1939 y así empezó la dictadura Franquista que duró hasta su muerte en 1975[@guerra_civil].
 
-Resulta que José fue miembro de dos grupos ya ilegales segun la Lay de Responsabilades Políticas: El Partido Socialista Obrero Español (PSOE) y La Unión General de Trabajadores (UGT). Tenemos el record publicado y en su propias palabras:
+Resulta que José fue miembro de dos grupos ya ilegales en esa fecha, según la Ley de Responsabilidades Políticas, entre ellas: El Partido Socialista Obrero Español (PSOE) y La Unión General de Trabajadores (UGT). A continuación, tenemos el record publicado y sus propias palabras.
 
-José está nombrado en una lista de los refugiados españoles residentes en Marruecos a quienes se documentó como inmigrantes aceptados por la legación de México[@pso_174, p. 427]. Dice que filiación politica es PSO.
+Primero, José fue nombrado en una lista de los refugiados españoles residentes en Marruecos, a quienes se documentó como inmigrantes aceptados por el legado de México[@pso_174, p. 427]. Dice que su filiación politica es PSO.
 
 ```{r}
 
 knitr::include_graphics("images/PSO_174.png")
 ```
 
-En su expediente como refugiado en México, José se identifica como parte del PSOE y UGT en Tánger[@expediente_ref].
+Segundo, en su expediente como refugiado en México, José se identifica como parte del PSOE y UGT en Tánger[@expediente_ref].
 
 ```{r}
 
@@ -155,7 +155,7 @@ knitr::include_graphics("images/PSO_UGT.png")
 
 ## Solicitando Asilo Político
 
-En el 2 de abril, 1939, el día después del fin de la guerra civil, José escribe cartas de Casablanca al consulado Mexicano en Francia solicitando asilo politico para él y su esposa, Isabel, y tres hijos: José, Isabel, y Encarnación. Por medio de estas cartas, aprendemos más sobre la vida de José en sus propias palabras.
+En el 2 de abril 1939, el día después del fin de la guerra civil, José escribió cartas desde Casablanca al consulado Mexicano en Francia, solicitando asilo politico para él y su esposa, Isabel y tres hijos: José, Isabel, y Encarnación. Por medio de estas cartas, aprendemos más sobre la vida de José en sus propias palabras.
 
 En la primera carta, José escribió que tuvo que huir de Tánger para Casablanca. Era un doctor de medicina y cirujia que había trabajado en varios hospitales. En este epoca José tenia 38 años y Isabel 30 años[@carta_exilio1].
 
@@ -164,7 +164,7 @@ En la primera carta, José escribió que tuvo que huir de Tánger para Casablanc
 knitr::include_graphics("images/exilio_doc1.png")
 ```
 
-En la segunda carta, José escribió que desde 1928 trabajó como director del Dispensario Indigena de Larache, Marruecos. El 20 de julio 1936, se mudó a la zona Francesa en Tanger (tres días después del inicio de la guerra civil). En la segunda pagina, dice que su deseo es ir a Mexico o Venezuela. Los edades du sus hijos son el siguiente: José (9), Isabel (8), y Encarnación (6)[@carta_exilio2].
+En la segunda carta, José escribió que desde 1928 trabajó como director del Dispensario Indigena de Larache, Marruecos. El 20 de julio 1936, se mudó a la zona Francesa en Tánger (tres días después del inicio de la guerra civil). En la segunda pagina, dice que su deseo es ir a Mexico o Venezuela. Las edades du sus hijos son las siguientes: José (9), Isabel (8), y Encarnación (6)[@carta_exilio2].
 
 ```{r}
 
@@ -173,30 +173,30 @@ knitr::include_graphics("images/exilio_doc2.png")
 
 ## Escapando a México
 
-Desafortunadamente, no hay un record publicado sobre como salió la familia de Marruecos.
+Desafortunadamente, no hay un récord publicado sobre como salió la familia de Marruecos.
 
-Sin embargo, los nombres de José, Isabel, y sus tres hijos aparecen en una lista de pasajeros de barcos que llegaron a San Juan, Puerto Rico en el 18 de febrero en 1941. Habían viajado por un barco de vapor que había salido de La Guaira, Venezuela. Además, el record dice que la ultima residencia de la familia fue Santos, Brazil[@PR_passengerlist].
+Sin embargo, los nombres de José, Isabel, y sus tres hijos aparecen en una lista de pasajeros de barcos que llegaron a San Juan, Puerto Rico en el 18 de febrero 1941. Habían viajado por un barco de vapor que había salido de La Guaira, Venezuela. Además, el record dice que la ultima residencia de la familia fue Santos, Brazil[@PR_passengerlist].
 
 ```{r}
 
 knitr::include_graphics("images/SanJuan_PR.png")
 ```
 
-A continuación, en el 9 de marzo 1941, la familiia entró a Mexico por la puerta de Veracruz en un barco de vapor que se llamaba Monterrey que había salido de Habana, Cuba[@expediente_ref, p. 6].
+A continuación, en el 9 de marzo 1941, la familiia entró a México por el puerto de Veracruz en un barco de vapor que se llamaba Monterrey, que había salido de Habana, Cuba[@expediente_ref, p. 6].
 
 ```{r}
 
 knitr::include_graphics("images/expediente_cuba_mex.png")
 ```
 
-Y el viaje de Cuba a Mexico originalmente fue pagado por La Junta de Auxilio de Los Republicanos Españoles (JARE)[@JUNTA].
+Asimismo, el récord de La Junta de Auxilio de Los Republicanos Españoles (JARE) describe que ellos pagaron el viaje de Cuba a México[@JUNTA].
 
 ```{r}
 
 knitr::include_graphics("images/JUNTA_abonar.png")
 ```
 
-No tenemos todo el record publicado del viaje, no obstante, podemos asumir que la familia escapó Marruecos en 1939 para Santos, Brazil -\> La Guaira, Venezuela -\> San Juan, Puerto Rico -\> Habana, Cuba -\> finalmente llegó a Veracruz, México en 1941.
+Desafortunadamente, no tenemos todo el récord publicado del viaje, no obstante, podemos asumir que la familia escapó Marruecos en 1939 llegando a los siguientes destinos: Santos, Brazil -\> La Guaira, Venezuela -\> San Juan, Puerto Rico -\> Habana, Cuba -\> y finalmente llegó a Veracruz, México en 1941.
 
 ```{r}
 
@@ -301,7 +301,7 @@ leaflet::leaflet(places) |>
 
 ## Entrando a México
 
-Aquí son los documentos de inmigración para entrar a Mexico[@JBG_immig_doc; @IRR_immig_doc]. El documento dice que su primera lugar residencia fue 211 Amsterdam en la Ciudad de Mexico.
+Aquí se presentan son los documentos de inmigración para entrar a México[@JBG_immig_doc; @IRR_immig_doc]. El documento dice que su primer lugar de residencia fue en 211 Amsterdam en la Ciudad de México.
 
 ```{r}
 
@@ -310,53 +310,51 @@ knitr::include_graphics("images/migration_card_JBG.png")
 knitr::include_graphics("images/migration_card_IRR.png")
 ```
 
-Asimismo, tenemos el record de correspondencia entre José y la Junta de Auxilio A Los Republicanos Españoles (J.A.R.E.)[@expediente_ref].
+Asimismo, tenemos el récord de correspondencia entre José y la Junta de Auxilio A Los Republicanos Españoles (J.A.R.E.)[@expediente_ref].
 
-Sigue al enlace en la nota al pie para ver el expediente. Nota: Haz click en 'more pages' para ver todas las 31 paginas del expediente. Para leer los documentos cronológicamente, se debe leer de la última pagina hasta la primera.
+Consulta el enlace en la nota de pie para ver el expediente. Nota: Haz click en 'more pages' para ver todas las 31 páginas del expediente. Para leer los documentos cronológicamente, se debe leer de la última pagina hasta la primera.
 
-Abajo es la primera carta que José escribió a la J.A.R.E. Con esta carta se puede entender como José y la familia habían luchado en las primeras semanas en México como refugiados.
+Abajo se encuentra es la primera carta que José escribió a la J.A.R.E. Con esta carta se puede entender como José y la familia habían luchado en las primeras semanas en México como refugiados.
 
 ```{r}
 
 knitr::include_graphics("images/expediente_carta1.png")
 ```
 
-Ultimamente, la J.A.R.E. se le otorga un subsidio de seis meses fuera del capital para mudarse a Puebla, Puebla en el 22 de mayo 1941[@expediente_ref].
+Últimamente, la J.A.R.E. le otorga a José y su familia un subsidio de seis meses fuera del capital para mudarse a Puebla, Puebla el 22 de mayo 1941[@expediente_ref].
 
-## José en las noticias en España
+## José en las Noticias en España
 
 Como su paradero era desconocido por el gobierno de España, el nombre de José aparece hastá 1946 en las noticias Españolas.
 
-En el 12 de february 1943, el Boletin Oficial Del Estado José en nombrado de un grupo que fue emplazado entre diez días y que habrá consequencías legales si no aparecen antes el juez. [@Feb12_1943].
+En el 12 de febrero 1943, el Boletín Oficial Del Estado José fue nombrado como parte de un grupo que fue citado a comparecer en diez días, y que habría consequencías legales si no aparecen antes el juez. [@Feb12_1943].
 
 ```{r}
 
 knitr::include_graphics("images/boletin_Feb1943.png")
 ```
 
-Más tarde en el 17 de noviembre 1943 el Boletin Oficial Del Estado, José está condenado 'como autor de un delito consumado de Masonería' y declara el orden de 'la busca, captura y prisión del condenado'[@Nov17_1943].
+Más tarde en el 17 de noviembre 1943, el Boletin Oficial Del Estado narra que José fue condenado 'como autor de un delito consumado de Masonería' y se declara la orden de 'la busca, captura y prisión del condenado'[@Nov17_1943].
 
 ```{r}
 
 knitr::include_graphics("images/boletin_Nov1943.png")
 ```
 
-A partir de 1945, el Tribunal Nacional de Responsabilidades Políticas fue remmplazado por el Comisión Liquidadora de Responsabilidades Políticas. En el 21 de febrero 1946 en el Boletín Oficial de Ceuta, dice que José puede recobrar sus bienes. Podemos asumir que José nunca recibio el mensaje[@1946_ceuta].
+A partir de 1945, el Tribunal Nacional de Responsabilidades Políticas fue reemplazado por la Comisión Liquidadora de Responsabilidades Políticas. En el 21 de febrero 1946 en el Boletín Oficial de Ceuta, se dice que José puede recobrar sus bienes. Podemos asumir que José nunca recibio el mensaje[@1946_ceuta].
 
 ```{r}
 
 knitr::include_graphics("images/boletin_1946.png")
 ```
 
-## José en Puebla, Mexico
+## José en Puebla, México
 
-El único record de José es el siguiente foto en frente del Sanatorio Español de Puebla en 1955[@PUEBLA].
+El único record de José que se tiene en Puebla, es la siguiente foto en frente del Sanatorio Español de Puebla en 1955[@PUEBLA]. Tenemos que asumir que José es la persona que parece en la primera fila el segundo de derecha a izquierda.
 
 ```{r}
 
 knitr::include_graphics("images/Puebla.jpeg")
 ```
 
-Creditos:
-
-Hecho por Alex Balcázar con amor para todos los descendientes de José y Isabel y sus tres hijos: José, Isabel, y Encarnación.
+Este proyecto fue hecho por Alex Balcázar con amor para todos los descendientes de José y Isabel y sus tres hijos: José, Isabel, y Encarnación.
