@@ -95,7 +95,7 @@ leaflet::leaflet(places) |>
 
 ## La Etapa de La Juventud de José
 
-Entre 1912 y 1918, José asistió al Instituto General y Técnico de Murcia[@expediente_academico]. Consulta el enlace en la nota al pie para ver su expediente académico que incluye: su applicación de 1912, la información sobre sus papás, el examen de ingreso, y todas sus califaciones. En las páginas 3 y 4 del expediente académico de José, aparecen los nombres de sus papás: Andrés Banegas Rodríguez y Lucrecia Gil. Los nombres de sus abuelos paternos fueron: Andres Banegas Martínez y Encarnación Rodríguez Luna. Los nombres de sus abuelos maternos fueron: Onofre Gil Marco y Josefa Prieto.
+Entre 1912 y 1918, José asistió al Instituto General y Técnico de Murcia[@expediente_academico]. Consulta el enlace en la nota al pie para ver su expediente académico que incluye: su applicación de 1912, la información sobre sus papás, el examen de ingreso, y todas sus califaciones. En las páginas 3 y 4 del expediente académico de José, aparecen los nombres de sus papás: Andrés Banegas Rodríguez y Lucrecia Gil. Los nombres de sus abuelos paternos fueron: Andrés Banegas Martínez y Encarnación Rodríguez Luna. Los nombres de sus abuelos maternos fueron: Onofre Gil Marco y Josefa Prieto.
 
 ```{r}
 
