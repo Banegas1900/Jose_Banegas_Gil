@@ -95,7 +95,7 @@ leaflet::leaflet(places) |>
 
 ## La Etapa de La Juventud de José
 
-Entre 1912 y 1918, José asistió al Instituto General y Técnico de Murcia[@expediente_academico]. Consulta el enlace en la nota al pie para ver su expediente académico que incluye: su applicación de 1912, la información sobre sus papás, el examen de ingreso, y todas sus califaciones. En las páginas 3 y 4 del expediente académico de José, aparecen los nombres de sus papás: Andrés Banegas Rodríguez y Lucrecia Gil. Los nombres de sus abuelos paternos fueron: Andres Banegas Martínez y Encarnación Rodríguez Luna. Los nombres du sus abuelos maternos fueron: Onofre Gil Marco y Josefa Prieto.
+Entre 1912 y 1918, José asistió al Instituto General y Técnico de Murcia[@expediente_academico]. Consulta el enlace en la nota al pie para ver su expediente académico que incluye: su applicación de 1912, la información sobre sus papás, el examen de ingreso, y todas sus califaciones. En las páginas 3 y 4 del expediente académico de José, aparecen los nombres de sus papás: Andrés Banegas Rodríguez y Lucrecia Gil. Los nombres de sus abuelos paternos fueron: Andres Banegas Martínez y Encarnación Rodríguez Luna. Los nombres de sus abuelos maternos fueron: Onofre Gil Marco y Josefa Prieto.
 
 ```{r}
 
@@ -124,7 +124,7 @@ Más tarde en las elecciones de 1936, ganó una coalición de izquierda, llamada
 
 La guerra civil Española estalló el 17 de julio de 1936 con una insurreción militar encabezada por el general Francisco Franco en la ciudad de Melilla[@guerra_civil].
 
-## La Represión Franquista 
+## La Represión Franquista
 
 Tres años después, llegando al fin de la guerra, los nacionalistas habían controlado casí todo el país. En el 9 de febrero de 1939, Franco firmó la Ley de Responsibilidades Políticas. Esta ley prohibió participación en partidos y grupos considerados opuestos al Movimento Nacional[@Andalan].
 
